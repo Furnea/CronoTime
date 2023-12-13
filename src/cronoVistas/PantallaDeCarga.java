@@ -25,6 +25,7 @@ public class PantallaDeCarga extends JFrame {
 	 * Create the frame.
 	 */
 	public PantallaDeCarga() {
+		setTitle("Cronotime");
 		setBackground(Color.WHITE);
 		setType(Type.UTILITY);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -41,7 +42,7 @@ public class PantallaDeCarga extends JFrame {
 		lblCargando.setHorizontalAlignment(SwingConstants.CENTER);
 		PanelCarga.add(lblCargando);
 		
-		JLabel lblMensajeEspera = new JLabel("New label");
+		JLabel lblMensajeEspera = new JLabel("Esto puede durar varios segundos");
 		lblMensajeEspera.setFont(new Font("Tahoma", Font.PLAIN, 15));
 		lblMensajeEspera.setHorizontalAlignment(SwingConstants.CENTER);
 		lblMensajeEspera.setVerticalAlignment(SwingConstants.BOTTOM);
