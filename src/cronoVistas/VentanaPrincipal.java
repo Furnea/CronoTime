@@ -24,7 +24,7 @@ public class VentanaPrincipal extends JFrame {
 	 * Create the frame.
 	 */
 	public VentanaPrincipal() {
-		setOpacity(0.0f);
+		setOpacity(1.0f);
 		setTitle("Cronotime");
 		setBackground(SystemColor.activeCaption);
 		setType(Type.UTILITY);
