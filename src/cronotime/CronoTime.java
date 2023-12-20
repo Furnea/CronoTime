@@ -5,7 +5,7 @@ import cronoControl.MiControlador;
 public class CronoTime {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// Contenido main, crea el controlador principal llamado Mi controlador
 		
         MiControlador controlador = new MiControlador();
         
