@@ -21,6 +21,9 @@ import java.awt.SystemColor;
 public class VentanaPrincipal extends JFrame {
 
 	private static final long serialVersionUID = 1L;
+	/**
+	 * Creacion Jpanel PanelPrincipal
+	 */
 	private JPanel PanelPrincipal;
 
 	/**

@@ -21,8 +21,13 @@ import java.awt.GridLayout;
  *  @author Roberto
  */
 public class PantallaDeCarga extends JFrame {
-
+	/**
+	 * Creacion Atributos
+	 */
 	private static final long serialVersionUID = 1L;
+	/**
+	 * Creacion Atributo Jpanel
+	 */
 	private JPanel PanelCarga;
 
 	/**
