@@ -16,14 +16,18 @@ import java.awt.Color;
 import java.awt.SystemColor;
 import java.awt.GridLayout;
 
-//Pantalla de carga previa a ventana principal
+/**
+ *  Pantalla de carga previa a la ventanaprincipal
+ *  @author Roberto
+ */
 public class PantallaDeCarga extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel PanelCarga;
 
-	//Constructor Pantalla de carga previa a la ventanaprincipal
-
+	/**
+	 * Constructor Pantalla de carga previa a la ventanaprincipal
+	 */
 	public PantallaDeCarga() {
 		setTitle("Cronotime");
 		setBackground(Color.WHITE);

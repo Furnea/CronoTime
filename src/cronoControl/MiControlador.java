@@ -2,14 +2,21 @@ package cronoControl;
 
 import cronoVistas.PantallaDeCarga;
 import cronoVistas.VentanaPrincipal;
-//Controlador principal
+/**
+ * Controlador principal
+ * @author Roberto
+ */
 public class MiControlador {
-	//Constructor del controlador MiControlador, lanza la ventana principal mediante un metodo
+	/**
+	 * Constructor del controlador MiControlador, lanza la ventana principal mediante un metodo
+	 */
 	public MiControlador(){
 	LanzarPrincipal();
 	}	
 	
-	//Metodo para lanzar la ventana principal
+	/**
+	 * Metodo para lanzar la ventana principal
+	 */
 	public void LanzarPrincipal(){
 		PantallaDeCarga ventanaC = new PantallaDeCarga();
         ventanaC.setVisible(true);	

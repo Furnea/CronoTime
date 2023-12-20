@@ -14,14 +14,17 @@ import javax.swing.border.LineBorder;
 import java.awt.Dialog.ModalExclusionType;
 import java.awt.Window.Type;
 import java.awt.SystemColor;
-
+/**
+ * Ventana principal
+ * @author Roberto
+ */
 public class VentanaPrincipal extends JFrame {
 
 	private static final long serialVersionUID = 1L;
 	private JPanel PanelPrincipal;
 
 	/**
-	 * Create the frame.
+	 * Creando el frame de la pagina principal
 	 */
 	public VentanaPrincipal() {
 		setOpacity(1.0f);
